@@ -1,31 +1,55 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SeeBook</title>
+    <title>Add Contact - SeeBook</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Keania+One&display=swap"
       rel="stylesheet"
     />
 
-    <link rel="icon" href="images/seebookLogo.png" />
+    <link
+      rel="shortcut icon"
+      href="/images/logoWhiteSeeBook.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="/index.css" />
   </head>
 
   <body>
     <header>
-      <h2>
-        <a href=""> SEEBOOK </a>
-      </h2>
+      <h1><a href="/index.html">SEE BOOK</a></h1>
+
+      <nav>
+        <button><a href="/addContact/index.html">+ Add Contact</a></button>
+        <form action="" method="get" id="contacts-search">
+          <button type="submit"></button>
+          <input
+            type="search"
+            name="q"
+            id="keyword-search"
+            placeholder="Search..."
+          />
+        </form>
+      </nav>
     </header>
 
-    <main></main>
-
-    <footer></footer>
+    <main class="main-container">
+      <section>
+        <h2>Contacts</h2>
+      </section>
+      <section>
+        <ul id="list-contacts">
+          <!-- show contacts -->
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <a href=""> Copyright &copy; seebook.mnursahid.com </a>
+    </footer>
 
     <script src="/index.js"></script>
   </body>
