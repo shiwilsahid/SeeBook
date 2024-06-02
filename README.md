@@ -1,4 +1,4 @@
-# seebook.mnursahid.com / Address Book of M Nur Sahid
+# SeeBook
 This is my project #2 with HTML, CSS and JavaScript only.
 
 ## Links
